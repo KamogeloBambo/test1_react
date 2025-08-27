@@ -19,7 +19,7 @@ function ProductDetail() {
 
   return (
     <div style={{ padding: "20px" }}>
-      <Link to="/">← Back to Products</Link>
+      <Link to="/">Back to Products</Link>
       <div style={{ marginTop: "20px" }}>
         <img src={product.image} alt={product.title} style={{ width: "300px" }} />
         <h1>{product.title}</h1>
