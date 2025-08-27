@@ -23,7 +23,7 @@ function ProductDetail() {
       <div style={{ marginTop: "20px" }}>
         <img src={product.image} alt={product.title} style={{ width: "300px" }} />
         <h1>{product.title}</h1>
-        <p>${product.price}</p>
+        <p>R{product.price}</p>
         <p>{product.description}</p>
       </div>
     </div>

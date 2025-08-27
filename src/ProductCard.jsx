@@ -20,7 +20,7 @@ function ProductCard({ product }) {
     <div style={styles.card}>
       <img src={product.image} alt={product.title} style={styles.image} />
       <h3 style={styles.title}>{product.title}</h3>
-      <p style={styles.price}>${product.price.toFixed(2)}</p>
+      <p style={styles.price}>R{product.price.toFixed(2)}</p>
     </div>
   );
 }
